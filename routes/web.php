@@ -17,11 +17,15 @@
 Route::get('/hello', function () {
     return "test";
 });
-Route::get('/about', 'PagesController@about');
+// Route::get('/about', 'PagesController@about');
 //get parameters from url 
 Route::get('/users/{id}/{name}',function($name,$id){
     return 'This is user ' .$name. 'and an id of' .$id;
 });
+Route::get('/about',function(){
+    return view('pages.about');
+});
+
 Route::get('/', 'PagesController@index');
 Route::get('/services', 'PagesController@services');
 
