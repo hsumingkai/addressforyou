@@ -15,7 +15,8 @@
 //     return view('welcome');
 // });
 Route::get('/hello', function () {
-    return "test";
+    $test = phpinfo();
+    return $test;
 });
 // Route::get('/about', 'PagesController@about');
 //get parameters from url 
@@ -30,6 +31,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/services', 'PagesController@services');
 
 Route::resource('posts', 'PostsController');
+Route::resource('test', 'testController');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
