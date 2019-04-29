@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class testController extends Controller
+use App\Add_vill_twd97;
+
+class addressController extends Controller
 {
     //
     public function __construct() {
@@ -13,7 +15,8 @@ class testController extends Controller
 
     public function index()
     {
-        return "1235";
+        // return Add_vill_twd97::where('no',1)->first();
+        return view('address.index');
     }
 }
 

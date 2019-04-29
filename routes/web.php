@@ -27,11 +27,12 @@ Route::get('/about',function(){
     return view('pages.about');
 });
 
-Route::get('/', 'PagesController@index');
+// Route::get('/', 'PagesController@index');
 Route::get('/services', 'PagesController@services');
 
 Route::resource('posts', 'PostsController');
-Route::resource('test', 'testController');
-Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+Route::resource('/', 'AddressController');
+
+Auth::routes();
