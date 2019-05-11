@@ -8,7 +8,6 @@ function createRecommendedIndustriesTable(recommendjplace, norecommendjplace, re
         }
     }
 }
-
 function createRecommendedStoresTable(jplace, recommendedstores ){
     console.log(recommendedstores)
     var preaddress = '新北市新莊區'
