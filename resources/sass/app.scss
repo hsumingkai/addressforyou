@@ -4,11 +4,20 @@
 
 // Variables
 @import 'variables';
-
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+// responsive-font-sizes
+@import "~rfs/scss";
+// customize css
+@import 'address';
 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+$enable-responsive-font-sizes: ture;
+// button, a{
+//   // or
+//   @include responsive-font-size(20px);p
+//   // or
+// }

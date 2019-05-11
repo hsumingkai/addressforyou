@@ -1,0 +1,171 @@
+$address-green: #199684;
+$address-yellow: #efb523;
+body{
+  font-family: 微軟正黑體 !important;
+}
+
+.address-green{
+    background: $address-green;
+}
+.address-yellow {
+    background-color: $address-yellow;
+}
+
+//address side bar 
+.sidebar {
+  padding: 29px 0 0;
+  height: calc(100vh - 81px);
+  .sidebar-button {
+    color: #333333;
+    font-weight: 600;
+    transition: .3s;
+    font-size: 24px;
+    &:hover{
+      color: #fff;
+    }
+    .main-sidebar-svg{
+      width: 26px;
+      height: 26px;
+    }
+    @include media-breakpoint-down(md) { 
+      font-size: 15px;
+      .main-sidebar-svg{
+        width: 16px;
+        height: 16px;
+      }
+    }
+    @include media-breakpoint-only(lg) { 
+      font-size: 20px;
+      .main-sidebar-svg{
+        width: 20px;
+        height: 20px;
+      }
+     }
+  }
+}
+// 主頁 投影片
+.address-background{
+  background-image: url("/img/tepback5.png");
+  .address-slide{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    img{
+      width:100%;
+    }
+    .bfont {
+      font-size: 60px;
+      .cfont {
+        padding-top: 20px;
+        font-size: 45px;
+      }
+    }
+    @include media-breakpoint-only(lg) {
+      
+      .bfont {
+        font-size: 40px;
+        .cfont {
+          padding-top: 20px;
+          font-size: 32px;
+        }
+      }
+     }
+     @include media-breakpoint-only(md) { 
+       
+      .bfont {
+        font-size: 30px;
+        .cfont {
+          padding-top: 20px;
+          font-size: 22px;
+        }
+      }
+     }
+  }
+}
+//主頁 卡片模式
+.card{
+  .card-landlord, .card-business{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card-landlord{
+    background-image: url("/img/landlord.jpg");
+  }
+  .card-business{
+    background-image: url("/img/business.jpg");
+
+  }
+  
+}
+
+#searchmap {
+  height: calc(60vh);
+  width: 100%;
+}
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#industrymap, #rentmap, #storesmap{
+  height: calc(55vh);
+  width: 100%;
+  }
+
+  .table-responsive{
+      max-height: 60vh;
+  }
+  // img{
+  //   width: auto;
+  //   height: 200px;
+  // }
+
+/* The side navigation menu (mobile) */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
