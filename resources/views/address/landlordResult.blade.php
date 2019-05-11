@@ -11,7 +11,7 @@ $(document).ready(function () {
     createBubble("#bubble")
     createRecommendedIndustriesTable("#recommendedindustries","#norecommendedindustries", getLocalStorageAsJson('recommendedIndustry'), getIndustry())
     window.addEventListener('resize', createBubble("#bubble"))
-    createNearRentTable('#nearRent', getLocalStorageAsJson('nearRent'))
+    createNearRentTable('#nearrent', getLocalStorageAsJson('nearRent'))
 });
 </script>
 
@@ -47,7 +47,7 @@ $(document).ready(function () {
                             <div class="col-12 col-md-4  py-5">
                                 <div id="rentmap"></div>
                             </div>
-                            <div id="bubble" class="col-12 col-md-8 py-4 ">
+                            <div class="col-12 col-md-8 py-4 pr-0">
                                 @include('address._nearRentStores')
                             </div>
                         </div>
