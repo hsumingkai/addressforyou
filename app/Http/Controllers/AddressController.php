@@ -150,6 +150,6 @@ class addressController extends Controller
 
     protected function findNearRent($x, $y, $distance)
     {
-        return DB::select("SELECT  * FROM address.realrent Group by   HAVING (POW( POW( ( ? - x ) , 2 ) + POW( ? - y, 2 ) , 0.5 )) < ? limit 15 ", [$x, $y, $distance]);
+        return DB::select("SELECT  * FROM address.realrent Group by title HAVING (POW( POW( ( ? - x ) , 2 ) + POW( ? - y, 2 ) , 0.5 )) < ? limit 15 ", [$x, $y, $distance]);
     }
 }
