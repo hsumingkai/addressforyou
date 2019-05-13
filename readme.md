@@ -1,25 +1,72 @@
 <p align="center"><img src="http://addressforyou.tk/img/head.png"></p>
 
 
-## About Laravel
+## About AddressForYou
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特定的行業，給予使用者快速的篩選機制，本系統實作台灣新北市新莊區。本系統主要考慮了：
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- 附近的商店行業分布，並分析各行業適合群聚或是分散
+- 附近的公共場所，像是:捷運、公車站牌、公園、廟宇等...一百多種的公共場所
+- 附近的里民的收入水平、教育水準、人口密度等...里的相關資料
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+## Feature
+- 幫助創業者快速找出這附近有沒有適合他們要開的店行業的位置
+- 幫助房東確認他的店面比較適合給哪個行業
+#
+## 技術實作
+> 因為這是舊的專案，所以主要目的將其專案整個重構，將原本雜亂Legacy Code進行重構
 
-## Learning Laravel
+- 用bootstrap css framework快速建立RWD網頁功能
+- 用google map web api, d3.js 來清楚呈現分析結果，方便使用者來觀察
+- 用Laravel框架，把原本的義大利面程式碼拆德更有架構，讓其系統之後方便擴充功能
+- 用MySql架設資料庫將儲存全新莊區的分析結果
+- 用docker技術，基礎將local開發端和server端的環境整合
+- 用Amazon Elastic Compute Cloud (Amazon EC2) 來架設Laravel Application
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+## 詳細開發技術
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+
+領域           | 技術  |
+--------------|:-----|
+前端技術    | Javascript, Css, Html|
+第三方套件    | Google Map Web Api, Bootstrap|
+前端開發工具    | Scss, Npm, Blade Template, |
+後端技術  | Laravel, PHP |
+資料庫|Mysql|
+環境架設|Docker, Laradock|
+Could Service|Amazon EC2|
+
+
+
+<table>
+    <tr>
+        <td>Foo</td>
+        <td>Foo</td>
+    </tr>
+    <tr>
+        <td>Foo</td>
+        <td>Foo</td>
+    </tr>
+    <tr>
+        <td>Foo</td>
+        <td>Foo</td>
+    </tr>
+    <tr>
+        <td>Foo</td>
+        <td>Foo</td>
+    </tr>
+    <tr>
+        <td>Foo</td>
+        <td>Foo</td>
+    </tr>
+    <tr>
+        <td>Foo</td>
+        <td>Foo</td>
+    </tr>
+    </table>
+
+
+
 
 ## Laravel Sponsors
 
