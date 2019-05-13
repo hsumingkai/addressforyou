@@ -9,13 +9,16 @@ AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特
 - 附近的公共場所，像是:捷運、公車站牌、公園、廟宇等...一百多種的公共場所
 - 附近的里民的收入水平、教育水準、人口密度等...里的相關資料
 
+#
+
 # Feature
 - 幫助創業者快速找出這附近有沒有適合他們要開的店行業的位置
 - 幫助房東確認他的店面比較適合給哪個行業
+# Demo
+- http://addressforyou.tk
 #
 # 技術實作
 > 因為這是舊的專案，所以主要目的將其專案整個重構，將原本雜亂Legacy Code進行重構
-
 - 用bootstrap css framework快速建立RWD網頁功能
 - 用google map web api, d3.js 來清楚呈現分析結果，方便使用者來觀察
 - 用Laravel框架，把原本的義大利面程式碼拆德更有架構，讓其系統之後方便擴充功能
@@ -27,7 +30,7 @@ AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特
 
 領域           | 技術  |
 --------------|:-----|
-前端技術| Javascript, Css, Html|
+前端技術| Javascript, Css, Html, RWD|
 第三方套件    | [Google Map Web Api](https://developers.google.com/maps/documentation/javascript/tutorial?hl=zh-TW), [Boostrap 4](https://getbootstrap.com/)|
 前端開發工具    | [Sass](https://sass-lang.com/), [Npm](https://www.npmjs.com/), [Blade Template](https://laravel.com/docs/5.8/blade) |
 後端技術  | [Laravel](https://laravel.com/), [PHP](https://www.php.net/docs.php) |
@@ -45,6 +48,9 @@ Could Service|[Amazon EC2](https://aws.amazon.com/tw/ec2/)|
 ## Feature
 - 導入會員系統讓使用者可以紀錄搜尋紀錄
 - 導入修正模式，如果定位不準確可以修正
+
+## Web Server
+- 導入HTTPS 
 
 ## Testing
 - 導入Unit Test
