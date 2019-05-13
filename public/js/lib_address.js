@@ -117,11 +117,12 @@ function createBubble(jplace){
     d3.select(self.frameElement).style("height", diameter + "px");
 }
 function createNearRentTable(place, nearRents){
+    var preaddress = '新北市新莊區'
     for(var i=0; i<nearRents.length; i++){
         var no =i+1
         $(place).append('<tr><th scope="row">'+no+
             '</th><td>'+nearRents[i].man+
-            '</td><td>'+nearRents[i].address+
+            '</td><td>'+preaddress+nearRents[i].address+
             '</td><td>'+nearRents[i].price+
             '</td><td>'+nearRents[i].title+
             '</td></tr>')
@@ -275,4 +276,12 @@ function shopowner(){
             document.location.href = '/shopownerresult';
         }          
     });
+}
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "200px";
+}
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
 }

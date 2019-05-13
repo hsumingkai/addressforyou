@@ -10817,7 +10817,7 @@ body {
   /* Disable horizontal scroll */
   padding-top: 60px;
   /* Place content 60px from the top */
-  transition: 0.5s;
+  transition: 0.1s;
   /* 0.5 second transition effect to slide in the sidenav */
 }
 
@@ -10829,7 +10829,7 @@ body {
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 /* When you mouse over the navigation links, change their color */

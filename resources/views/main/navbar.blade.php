@@ -9,13 +9,10 @@
                 <a href="/" class="btn btn-outline-dark font-weight-bold mr-2" role="button" aria-pressed="true">首頁</a>
             </li>
             <li class="nav-item">
-                <a class="text-dark font-weight-bold nav-link" href="#">Link</a>
+                <a class="text-dark font-weight-bold nav-link" href="#">關於我</a>
             </li>
             <li class="nav-item">
-                <a class="text-dark font-weight-bold nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="text-dark font-weight-bold nav-link" href="#">Link</a>
+                <a class="text-dark font-weight-bold nav-link" href="#">關於這作品</a>
             </li>
         </ul>
     </nav>
@@ -32,15 +29,9 @@
 </div>
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a href="#">首頁</a>
+    <a href="#">關於我</a>
+    <a href="#">關於這作品</a>
 </div>
 
-
-
-
-      
-      <!-- Use any element to open the sidenav -->
       
