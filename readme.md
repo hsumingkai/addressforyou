@@ -1,6 +1,8 @@
 <p align="center"><img src="http://addressforyou.tk/img/head.png"></p>
 
 
+# Demo
+- http://addressforyou.tk
 # About AddressForYou
 
 AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特定的行業，給予使用者快速的篩選機制，本系統實作台灣新北市新莊區。本系統主要考慮了：
@@ -14,8 +16,6 @@ AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特
 # Feature
 - 幫助創業者快速找出這附近有沒有適合他們要開的店行業的位置
 - 幫助房東確認他的店面比較適合給哪個行業
-# Demo
-- http://addressforyou.tk
 #
 # 技術實作
 > 因為這是舊的專案，所以主要目的將其專案整個重構，將原本雜亂Legacy Code進行重構
