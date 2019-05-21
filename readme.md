@@ -19,10 +19,10 @@ AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特
 #
 # 技術實作
 > 因為這是舊的專案，所以主要目的將其專案整個重構，將原本雜亂Legacy Code進行重構
+- 用Laravel框架(PHP框架)，把原本的義大利面程式碼拆德更有架構，讓其系統之後方便擴充功能，並連接MySql資料庫
 - 用bootstrap css framework快速建立RWD網頁功能
 - 用google map web api, d3.js 來清楚呈現分析結果，方便使用者來觀察
-- 用Laravel框架，把原本的義大利面程式碼拆德更有架構，讓其系統之後方便擴充功能
-- 用MySql架設資料庫將儲存全新莊區的分析結果
+- 用MySql架設資料庫將儲存全新莊區將近6萬筆的分析結果
 - 用docker技術，基礎將local開發端和server端的環境整合
 - 用Amazon Elastic Compute Cloud (Amazon EC2) 來架設Laravel Application
 
@@ -30,10 +30,11 @@ AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特
 
 領域           | 技術  |
 --------------|:-----|
+框架  | [Laravel](https://laravel.com/) |
+後端  | [PHP](https://www.php.net/docs.php) |
 前端技術| Javascript, Css, Html, RWD|
 第三方套件    | [Google Map Web Api](https://developers.google.com/maps/documentation/javascript/tutorial?hl=zh-TW), [Boostrap 4](https://getbootstrap.com/)|
 前端開發工具    | [Sass](https://sass-lang.com/), [Npm](https://www.npmjs.com/), [Blade Template](https://laravel.com/docs/5.8/blade) |
-後端技術  | [Laravel](https://laravel.com/), [PHP](https://www.php.net/docs.php) |
 資料庫|[MySQL](https://www.mysql.com/)|
 環境架設|[Docker](https://www.docker.com/), [Laradock](https://laradock.io/)|
 Could Service|[Amazon EC2](https://aws.amazon.com/tw/ec2/)|

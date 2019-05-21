@@ -24,7 +24,7 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="/">首頁</a>
-    <a href="#">關於我</a>
+    <a href="https://www.cakeresume.com/hsu-mingkai">關於我</a>
     <a href="https://github.com/hsumingkai/AddressForYou">Github</a>
 </div>
 

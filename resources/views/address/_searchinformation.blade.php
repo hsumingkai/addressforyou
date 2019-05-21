@@ -3,10 +3,10 @@
         @if ($type == "shopowner")
             <div class="form-group">
             <label for="exampleFormControlSelect1">
-                <h2>選一個你想要開的店吧</h2>
+                <h2>選一個你想要開的行業吧</h2>
             </label>
                 <select id="industry" class="form-control" id="exampleFormControlSelect1">
-                    <option value="">職業</option>
+                    <option value="">行業</option>
                     <option value="F201010">農產品</option>
                     <option value="F203010">食品什貨</option>
                     <option value="F203020">菸酒</option>

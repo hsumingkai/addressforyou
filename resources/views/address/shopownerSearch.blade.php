@@ -16,7 +16,7 @@ $(document).ready(function () {
     <div class="container">
     <div class="row mt-3 font-weight-bold">
         <div class="col">
-            <h1> - 請選擇你想要租屋的位置</h1>
+            <h1> - 請選擇你想要開店的位置</h1>
         </div>
     </div>
     <div class="row align-items-center">
