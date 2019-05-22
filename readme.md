@@ -23,7 +23,7 @@ AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特
 - 用Bootstrap(Css Framework)快速建立RWD網頁功能
 - 用google map web api, d3.js 來清楚呈現分析結果，方便使用者來觀察
 - 用MySql架設資料庫將儲存全新莊區將近6萬筆的分析結果
-- 用docker技術，基礎將local開發端和server端的環境整合
+- 用Docker架設LNMP的web server，並基礎將local開發端和server端的環境整合
 - 用Amazon Elastic Compute Cloud (Amazon EC2) 來架設Laravel Application
 
 # 詳細開發技術
