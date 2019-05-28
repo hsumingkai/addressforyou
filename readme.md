@@ -19,12 +19,12 @@ AddressForYou 是一個選址分析系統，用於判斷某地點適不適合特
 #
 # 技術實作
 > 因為這是舊的專案，所以主要目的將其專案整個重構，將原本雜亂Legacy Code進行重構
-- 用Laravel框架(PHP框架)，把原本的義大利面程式碼拆德更有架構，讓其系統之後方便擴充功能，並連接MySql資料庫
+- 用Laravel，重構過去專案，讓其系統之後方便擴充功能，並連接MySql資料庫
 - 用Bootstrap(Css Framework)快速建立RWD網頁功能
-- 用google map web api, d3.js 來清楚呈現分析結果，方便使用者來觀察
-- 用MySql架設資料庫將儲存全新莊區將近6萬筆的分析結果
-- 用Docker架設LNMP的web server，並基礎將local開發端和server端的環境整合
-- 用Amazon Elastic Compute Cloud (Amazon EC2) 來架設Laravel Application
+- 用Google Map api, D3.js 來呈現分析結果，方便使用者觀察
+- 架設資料庫將儲存全新莊區將近6萬筆的分析結果
+- 用Docker架設LNMP的Web server，並基礎將local開發端和Server端的環境整合
+- 用Amazon EC2 來架設Laravel Application
 
 # 詳細開發技術
 
